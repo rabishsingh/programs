@@ -1,0 +1,22 @@
+import java.io.*;
+class fileReaderrtest{
+   
+   public static void main(String args[])throws IOException{
+            
+                
+		Filereader fr = new Filereader("abc.txt");
+
+		int i = fr.read();
+
+		while(  i != -1){
+
+		   System.out.println((char)i);
+
+		   i = fr.read();
+
+		   }
+		   }
+		   }
+		
+	    
+

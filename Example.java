@@ -22,6 +22,7 @@ class Example
    System.out.println(a);
    System.out.println(s1);
    System.out.println(ch);
+	
 
  }
 
@@ -32,7 +33,7 @@ class Example
         System.out.println("main start");
 		System.out.println(a);
 		 System.out.println(s1);
-		// System.out.println(ch);
+		System.out.println(ch);
          
 		 m1();
 	//	 m2(); we dont want call this 
